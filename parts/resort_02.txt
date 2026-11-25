@@ -1,0 +1,14 @@
+     
+        <div class="resort" hidden>
+            <div class="photo">
+                <img src="images/02-luljettas.jpg" alt="Photo of Luljetta’s Hanging Gardens and Spa" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>2. Luljetta’s Hanging Gardens and Spa</h3>
+                <p><b>Location:</b> Antipolo City, Rizal</p>
+                <p><b>Best for:</b> Relaxing spa retreat</p>
+                <p>Luljetta’s Hanging Gardens and Spa offers a tranquil garden and wellness atmosphere in Antipolo. Visitors come for relaxation, scenic spaces, and a break from busy routines.</p>
+                <p><b>Travel tip:</b> Check available spa packages and reservation requirements before going.</p>
+            </div>
+        </div>

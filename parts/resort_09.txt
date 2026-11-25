@@ -1,0 +1,14 @@
+    
+        <div class="resort" hidden>
+            <div class="photo">
+                <img src="images/09-timberland.jpg" alt="Photo of Timberland Highlands Resort" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>9. Timberland Highlands Resort</h3>
+                <p><b>Location:</b> San Mateo, Rizal</p>
+                <p><b>Best for:</b> Mountain views and staycation</p>
+                <p>Timberland Highlands Resort provides an elevated mountain retreat near Metro Manila. It is a potential choice for a staycation with scenic views and a restful atmosphere.</p>
+                <p><b>Travel tip:</b> Check room availability and current access arrangements.</p>
+            </div>
+        </div>

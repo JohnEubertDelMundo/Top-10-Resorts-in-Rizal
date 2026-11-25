@@ -1,0 +1,14 @@
+    
+        <div class="resort" hidden>
+            <div class="photo">
+                <img src="images/08-pranjetto.jpg" alt="Photo of Pranjetto Hills Resort and Conference Center" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>8. Pranjetto Hills Resort and Conference Center</h3>
+                <p><b>Location:</b> Tanay, Rizal</p>
+                <p><b>Best for:</b> Highland retreat</p>
+                <p>Pranjetto Hills Resort and Conference Center is located in the upland area of Tanay. Its cool mountain setting makes it appealing for gatherings and relaxing trips.</p>
+                <p><b>Travel tip:</b> Plan transportation ahead and confirm booking details.</p>
+            </div>
+        </div>

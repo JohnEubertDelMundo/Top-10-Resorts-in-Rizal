@@ -1,0 +1,232 @@
+<html>
+<head>
+    <title>Top 10 Resorts in Rizal - Travel Guide</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header" id="home">
+        <h1>TOP 10 RESORTS IN RIZAL</h1>
+        <p>Travel Guide</p>
+    </div>
+
+    <div class="navigation">
+        <a href="#home">Home</a>
+        <a href="#resorts">Top 10 Resorts</a>
+        <a href="#travel">Travel Guide</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Discover Beautiful Resorts in Rizal</h2>
+            <p>Welcome to Rizal Resort Escapes! Explore relaxing resorts, scenic highlands, and places to visit for your next getaway.</p>
+        </div>
+
+        <div class="content" id="resorts">
+            <div class="top-line">
+                <h2>Top 10 Resorts in Rizal</h2>
+                <div class="number-buttons">
+                    <button type="button" onclick="showResort(0)">1</button>
+                    <button type="button" onclick="showResort(1)">2</button>
+                    <button type="button" onclick="showResort(2)">3</button>
+                    <button type="button" onclick="showResort(3)">4</button>
+                    <button type="button" onclick="showResort(4)">5</button>
+                    <button type="button" onclick="showResort(5)">6</button>
+                    <button type="button" onclick="showResort(6)">7</button>
+                    <button type="button" onclick="showResort(7)">8</button>
+                    <button type="button" onclick="showResort(8)">9</button>
+                    <button type="button" onclick="showResort(9)">10</button>
+                </div>
+            </div>
+            <p>Click a number to view a resort. Each resort has its own photo and travel description.</p>
+
+       
+        <div class="resort">
+            <div class="photo">
+                
+                <img src="images/01-thunderbird.jpg" alt="Photo of Thunderbird Resorts Rizal" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>1. Thunderbird Resorts Rizal</h3>
+                <p><b>Location:</b> Binangonan, Rizal</p>
+                <p><b>Best for:</b> Scenic luxury resort</p>
+                <p>Thunderbird Resorts Rizal sits on the hills overlooking Laguna de Bay. Its panoramic surroundings make it a relaxing destination for a weekend escape, peaceful sightseeing, and memorable photographs.</p>
+                <p><b>Travel tip:</b> Ask about current room packages and visitor access.</p>
+            </div>
+        </div>
+       
+        <div class="resort" hidden>
+            <div class="photo">
+                
+                <img src="images/02-luljettas.jpg" alt="Photo of Luljetta’s Hanging Gardens and Spa" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>2. Luljetta’s Hanging Gardens and Spa</h3>
+                <p><b>Location:</b> Antipolo City, Rizal</p>
+                <p><b>Best for:</b> Relaxing spa retreat</p>
+                <p>Luljetta’s Hanging Gardens and Spa offers a tranquil garden and wellness atmosphere in Antipolo. Visitors come for relaxation, scenic spaces, and a break from busy routines.</p>
+                <p><b>Travel tip:</b> Check available spa packages and reservation requirements before going.</p>
+            </div>
+        </div>
+        
+        <div class="resort" hidden>
+            <div class="photo">
+               
+                <img src="images/03-loreland.jpg" alt="Photo of Loreland Farm Resort" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>3. Loreland Farm Resort</h3>
+                <p><b>Location:</b> Antipolo City, Rizal</p>
+                <p><b>Best for:</b> Family-friendly outing</p>
+                <p>Loreland Farm Resort is a long-running resort destination in Antipolo known for recreation and family gatherings. Its outdoor environment can work well for group trips and celebrations.</p>
+                <p><b>Travel tip:</b> Confirm day-tour prices, pool access, and accommodation options.</p>
+            </div>
+        </div>
+       
+        <div class="resort" hidden>
+            <div class="photo">
+                
+                <img src="images/04-punta-de-fabian.jpg" alt="Photo of Punta de Fabian" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>4. Punta de Fabian</h3>
+                <p><b>Location:</b> Baras, Rizal</p>
+                <p><b>Best for:</b> Lakeside and mountain views</p>
+                <p>Punta de Fabian offers a mountain setting and broad natural views in Baras. The location appeals to visitors looking for a quiet stay, scenic photographs, or a relaxed getaway.</p>
+                <p><b>Travel tip:</b> Check current operating schedules and rates.</p>
+            </div>
+        </div>
+      
+        <div class="resort" hidden>
+            <div class="photo">
+                
+                <img src="images/05-bakasyunan.jpg" alt="Photo of Bakasyunan Resort and Conference Center" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>5. Bakasyunan Resort and Conference Center</h3>
+                <p><b>Location:</b> Tanay, Rizal</p>
+                <p><b>Best for:</b> Nature and group trips</p>
+                <p>Bakasyunan Resort and Conference Center is a destination for family trips, reunions, and team events. Its setting combines an outdoor getaway with resort and event facilities.</p>
+                <p><b>Travel tip:</b> Ask which activities and facilities are included in the package.</p>
+            </div>
+        </div>
+       
+        <div class="resort" hidden>
+            <div class="photo">
+                
+                <img src="images/06-momarco.jpg" alt="Photo of Momarco Forest Cove Resort and Hotel" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>6. Momarco Forest Cove Resort and Hotel</h3>
+                <p><b>Location:</b> Tanay, Rizal</p>
+                <p><b>Best for:</b> Forest-inspired escape</p>
+                <p>Momarco Forest Cove Resort and Hotel provides a resort experience with a natural backdrop in Tanay. It can be a choice for visitors who prefer greenery, fresh air, and a quieter setting.</p>
+                <p><b>Travel tip:</b> Confirm route access, swimming rules, and resort policies.</p>
+            </div>
+        </div>
+       
+        <div class="resort" hidden>
+            <div class="photo">
+                
+                <img src="images/07-ten-cents.jpg" alt="Photo of Ten Cents to Heaven Leisure Camp" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>7. Ten Cents to Heaven Leisure Camp</h3>
+                <p><b>Location:</b> Tanay, Rizal</p>
+                <p><b>Best for:</b> Highland adventure</p>
+                <p>Ten Cents to Heaven Leisure Camp is associated with the highland landscape of Tanay. Its mountain setting is attractive for scenery, outdoor recreation, and group visits.</p>
+                <p><b>Travel tip:</b> Verify which adventure activities are currently available.</p>
+            </div>
+        </div>
+       
+        <div class="resort" hidden>
+            <div class="photo">
+                
+                <img src="images/08-pranjetto.jpg" alt="Photo of Pranjetto Hills Resort and Conference Center" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>8. Pranjetto Hills Resort and Conference Center</h3>
+                <p><b>Location:</b> Tanay, Rizal</p>
+                <p><b>Best for:</b> Highland retreat</p>
+                <p>Pranjetto Hills Resort and Conference Center is located in the upland area of Tanay. Its cool mountain setting makes it appealing for gatherings and relaxing trips.</p>
+                <p><b>Travel tip:</b> Plan transportation ahead and confirm booking details.</p>
+            </div>
+        </div>
+      
+        <div class="resort" hidden>
+            <div class="photo">
+                
+                <img src="images/09-timberland.jpg" alt="Photo of Timberland Highlands Resort" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>9. Timberland Highlands Resort</h3>
+                <p><b>Location:</b> San Mateo, Rizal</p>
+                <p><b>Best for:</b> Mountain views and staycation</p>
+                <p>Timberland Highlands Resort provides an elevated mountain retreat near Metro Manila. It is a potential choice for a staycation with scenic views and a restful atmosphere.</p>
+                <p><b>Travel tip:</b> Check room availability and current access arrangements.</p>
+            </div>
+        </div>
+       
+        <div class="resort" hidden>
+            <div class="photo">
+              
+                <img src="images/10-villa-jhoana.jpg" alt="Photo of Villa Jhoana Resort" onload="this.parentElement.classList.add('has-photo')" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>10. Villa Jhoana Resort</h3>
+                <p><b>Location:</b> Angono, Rizal</p>
+                <p><b>Best for:</b> Convenient leisure stay</p>
+                <p>Villa Jhoana Resort is a leisure destination in Angono that can suit visitors looking for a local resort getaway. Travelers may consider it for relaxation and swimming plans.</p>
+                <p><b>Travel tip:</b> Confirm operating hours, inclusions, and entrance fees.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="travel" id="travel">
+            <h2>Travel Guide</h2>
+            <p>Plan your transportation and budget before traveling. Confirm entrance fees, accommodations, and resort policies directly with the destination before visiting.</p>
+            <p>Bring water, sun protection, suitable clothes, and any required booking confirmation. Travel early when visiting mountain destinations in Tanay.</p>
+        </div>
+
+        <div class="about" id="about">
+            <h2>About This Website</h2>
+            <p>This website is a simple travel guide featuring ten resorts in Rizal. It shares destination highlights, locations, and useful travel tips to help visitors plan their next getaway. Resort details and availability may change, so confirm directly with each resort before visiting.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>TOP 10 RESORTS IN RIZAL | Travel Guide</p>
+        <p class="footer-small">Explore beautiful destinations and plan your next getaway.</p>
+    </div>
+
+    <script>
+        var currentResort = 0;
+        var resorts = document.querySelectorAll('.resort');
+        var numberButtons = document.querySelectorAll('.number-buttons button');
+
+        function showResort(number) {
+            currentResort = number;
+
+            for (var i = 0; i < resorts.length; i++) {
+                resorts[i].hidden = (i !== currentResort);
+                numberButtons[i].classList.toggle('active', i === currentResort);
+            }
+        }
+
+        showResort(0);
+    </script>
+</body>
+</html>

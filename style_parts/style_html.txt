@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Top 10 Resorts in Rizal - Style</title>
+<style>
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f2f1ee;
+}
+
+
+.header {
+    background: #353535;
+    color: white;
+    padding: 46px 20px 40px;
+    text-align: center;
+    border-bottom: 4px solid #c2a470;
+}
+.header h1 { margin: 0 0 12px; font-size: 31px; letter-spacing: 2px; }
+.header p { margin: 0; font-size: 15px; color: #e7e0d3; letter-spacing: 3px; }
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 18px 12px;
+    background: white;
+    border-bottom: 1px solid #e6e2da;
+}
+.navigation a { color: #414141; text-decoration: none; font-weight: bold; font-size: 14px; padding-bottom: 5px; border-bottom: 2px solid transparent; transition: 0.2s; }
+.navigation a:hover { color: #917344; border-bottom-color: #c2a470; }
+
+
+.container { max-width: 1060px; margin: 30px auto; padding: 0 18px; }
+.intro, .content, .travel, .about {
+    background: white;
+    padding: 28px 30px;
+    margin-bottom: 24px;
+    border: 1px solid #e4e0d8;
+    border-radius: 8px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.035);
+}
+.intro { border-left: 5px solid #c2a470; }
+.intro h2, .travel h2, .about h2 { margin-top: 0; }
+.intro h2, .content h2, .travel h2, .about h2 { color: #464039; }
+.intro p, .travel p, .about p { line-height: 1.8; }
+.top-line { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 18px; }
+.top-line h2 { margin: 0; }
+.content > p { color: #777; font-size: 14px; margin: 18px 0 22px; }
+
+
+.number-buttons { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 7px; }
+.number-buttons button {
+    border: 1px solid #d8d5cf;
+    background: #f9f8f5;
+    color: #484848;
+    padding: 9px 12px;
+    min-width: 39px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.number-buttons button:hover { background: #c2a470; color: white; border-color: #c2a470; transform: translateY(-2px); }
+.number-buttons button.active { background: #454545; color: white; border-color: #454545; }
+.number-buttons button:focus-visible { outline: 3px solid #c2a470; outline-offset: 2px; }
+
+
+.resort { margin-top: 12px; }
+.resort[hidden] { display: none; }
+.photo { width: 100%; background: #f2eee7; border-radius: 7px; overflow: hidden; }
+ .photo { min-height: 260px; position: relative; }
+.photo img { display: block; width: 100%; max-height: 410px; object-fit: cover; }
+.resort-info { line-height: 1.8; }
+.resort-info h3 { font-size: 24px; margin: 19px 0 10px; color: #45403a; padding-bottom: 9px; border-bottom: 2px solid #e8dfd0; }
+.resort-info p { margin: 10px 0; }
+.resort-info b { color: #78603c; }
+
+
+.travel h2, .about h2 { padding-bottom: 11px; border-bottom: 2px solid #c2a470; }
+.about { margin-bottom: 32px; }
+
+
+.footer {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    border-top: 4px solid #c2a470;
+}
+.footer p { margin: 8px 0; letter-spacing: 0.5px; }
+.footer-small { color: #c8c8c8; font-size: 13px; letter-spacing: 0 !important; }
+
+@media (max-width: 680px) {
+    .header { padding: 34px 15px; }
+    .header h1 { font-size: 23px; letter-spacing: 1px; }
+    .navigation { gap: 16px; }
+    .container { margin-top: 18px; padding: 0 12px; }
+    .intro, .content, .travel, .about { padding: 21px 17px; }
+    .top-line { display: block; }
+    .number-buttons { justify-content: flex-start; margin-top: 17px; }
+    .resort-info h3 { font-size: 21px; }
+}
+</style>
+</head>
+<body>
+<div class="header"><h1>TOP 10 RESORTS IN RIZAL</h1><p>Travel Guide</p></div>
+<div class="navigation"><a href="#">Home</a><a href="#">Top 10 Resorts</a><a href="#">Travel Guide</a><a href="#">About</a></div>
+</body>
+</html>

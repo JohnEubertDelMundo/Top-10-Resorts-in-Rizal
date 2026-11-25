@@ -1,0 +1,14 @@
+        
+        <div class="resort" hidden>
+            <div class="photo">
+                <img src="images/03-loreland.jpg" alt="Photo of Loreland Farm Resort" onerror="this.style.display='none'">
+            </div>
+
+            <div class="resort-info">
+                <h3>3. Loreland Farm Resort</h3>
+                <p><b>Location:</b> Antipolo City, Rizal</p>
+                <p><b>Best for:</b> Family-friendly outing</p>
+                <p>Loreland Farm Resort is a long-running resort destination in Antipolo known for recreation and family gatherings. Its outdoor environment can work well for group trips and celebrations.</p>
+                <p><b>Travel tip:</b> Confirm day-tour prices, pool access, and accommodation options.</p>
+            </div>
+        </div>

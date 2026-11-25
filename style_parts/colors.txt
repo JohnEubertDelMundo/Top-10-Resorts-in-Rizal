@@ -1,0 +1,5 @@
+Header: dark gray #353535
+Navigation: white #ffffff
+Background: warm off-white #f2f1ee
+Accent: muted gold #c2a470
+Footer: charcoal #1e1e1e
